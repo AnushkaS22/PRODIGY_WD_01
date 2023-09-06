@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+
+    <!--Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+    
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap" rel="stylesheet">
+    <title>Responsive-Landing-Page</title>
+</head>
+<body>
+    <header>
+        <div class="Navigation  d-flex justify-content-between ">
+            <div class="nav2 d-lg-none pt-3">
+                <a class="btn-dots btn-primary bg-transparent border border-none" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample" >
+                    <i class="bi bi-three-dots-vertical"></i>
+                  </a>
+                  
+                  
+                  <div class="offcanvas offcanvas-start bg-primary" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Prodigy Infotech</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="header-list-ul">
+                          <li><a class="header-list-ul-li text-white pt-5" href="#">Home</a></li>
+                          <li><a class="header-list-ul-li text-white pt-5" href="#About">About</a></li>
+                          <li><a class="header-list-ul-li text-white pt-5" href="#Contact">Contact Us</a></li>
+                        </ul>
+                      
+                    </div>
+                  </div>
+            </div>
+            <div class="logo">
+                <img src="logo.jpg" alt="logo-img" class="logo1">
+            </div>
+
+            <!--Laptop View Navigation-->
+          <div
+           class="nav-ul d-none d-md-none d-lg-flex justify-content-around mt-5">
+               <li class="nav-ul-li"><a href="#">Home</a></li>
+               <li class="nav-ul-li"><a href="#About">About</a></li>
+               <li class="nav-ul-li"><a href="#Contact">Contact Us</a></li>
+             </div>
+       </div>
+      </header>
+
+      <!--Banner Section-->
+      <div class=" Banner  bg-primary d-lg-flex justify-content-around pt-5">
+        <div class="banner-info1 pt-5">
+            <h2 class="text-center text-white">Prodigy Infotech</h2>
+            <p class="text-center p-3 text-white">Providing World Class E-Learning Experience with Real world Internships</p>
+        </div>
+        <div class="banner-info2 text-center">
+            <img src="banner-img2.png" alt="student_photo" class="banner_img2">
+        </div>
+      </div>
+
+      <!--About Section-->
+      <div class="About m-4  pt-4 bg-dark-subtle" id="About">
+        <div class="about-head">
+            <h1 class="text-center text-primary mt-3
+        ">About</h1>
+        </div>
+        <div class="About-Info d-lg-flex">
+            <div class="about-info1">
+                <p class="p-2 text-center text-white fw-200">Our mission is to create innovative and accessible learning solutions that empower people of all ages and backgrounds to achieve their full potential. Whether you're a student looking to improve your grades, a professional seeking to upskill, or an organization looking to enhance employee training, we have the tools and resources you need to succeed.</p>
+            </div>
+            <div class="about-info2 p-2">
+                <img src="about-image.svg" alt="about-img" class="about-img">
+            </div>
+        </div>
+      </div>
+
+      <!--Contact Us-->
+      <div class="Contact m-4  pt-4 bg-light text-center" id="Contact">
+        <div class="contact-head">
+            <h1 class="text-center text-primary mt-3
+        ">Contact Us<h1>
+        </div>
+        <div class="contact-icons">
+            <ul class="contact-ul mt-5 ">
+                <li class="contact-ul-li">
+                    <a href="https://www.instagram.com/prodigy_infotech/"><i class="bi bi-instagram text-info">    Instagram</i></a>
+                </li>
+                <li class="contact-ul-li mt-3">
+                    <a href="https://www.linkedin.com/company/prodigy-infotech/"><i class="bi bi-linkedin text-info">   LinkedIn</i></a>
+                </li>
+                <li class="contact-ul-li mt-3"><a href="prodigyinfot@gmail.com"><i class="bi bi-envelope text-info">   MailId</i></a></li>
+            </ul>
+        </div>
+      </div>
+      <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      ></script>
+</body>
+</html>
